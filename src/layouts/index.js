@@ -4,6 +4,8 @@ import Helmet from 'react-helmet'
 
 import Header from '../components/header'
 import Menu from '../components/menu'
+
+
 import './index.css'
 
 
@@ -40,7 +42,11 @@ const Layout = ({ children, data }) => (
     </footer>
 
     </div>
-  </div>
+    </div>
+  
+    
+
+
 )
 
 Layout.propTypes = {

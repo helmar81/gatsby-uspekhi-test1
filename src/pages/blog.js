@@ -15,6 +15,8 @@ const BlogPage = ({ data }) => (
           {post.node.frontmatter.date}
         </small>
         <br />
+
+        
         <br />
         <Link to={post.node.frontmatter.path}>Read More</Link>
         <br />
