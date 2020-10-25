@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
-const SecondPage = () => (
+const contactPage = () => (
   <form name="contact" method="POST" data-netlify="true">
   <p>
     <label>Your Name: <input type="text" name="name" /></label>   
@@ -19,4 +19,4 @@ const SecondPage = () => (
 </form>
 )
 
-export default SecondPage
+export default contactPage
